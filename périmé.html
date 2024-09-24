@@ -8,11 +8,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #000;
-            background-image: url("file:///C:/cc/umbrella-corporation.gif");
-            background-size: cover;
-            background-position: center;
-            color: #fff;
+            background-color: #fff;
+            color: #b30000;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
@@ -21,66 +18,70 @@
         header {
             text-align: center;
             padding: 50px 0;
-            background-color: rgba(17, 17, 17, 0.9);
+            background-color: #fff;
             border-bottom: 2px solid #b30000;
             position: relative;
         }
 
         header img {
-            max-width: 300px;
-            opacity: 0.9;
-            filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.7));
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            max-width: 150px;
         }
 
         header h2 {
             color: #b30000;
             font-size: 24px;
-            text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
-            margin-top: 10px;
+            margin: 0;
+            font-weight: bold;
+            text-transform: uppercase;
         }
 
         nav {
             text-align: center;
             margin: 20px 0;
-            background-color: rgba(17, 17, 17, 0.8);
+            background-color: #fff;
             padding: 10px 0;
             border-top: 2px solid #b30000;
         }
 
         nav a {
             text-decoration: none;
-            color: white;
+            color: #b30000;
             font-size: 18px;
             margin: 0 15px;
             padding: 10px 20px;
-            background-color: #b30000;
+            background-color: #fff;
             border-radius: 5px;
+            border: 1px solid #b30000;
             transition: background-color 0.3s ease;
         }
 
         nav a:hover {
-            background-color: #ff0000;
+            background-color: #b30000;
+            color: white;
         }
 
         .container {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
-            background-color: rgba(17, 17, 17, 0.8);
-            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+            background-color: #fff;
             border-radius: 10px;
             text-align: center;
         }
 
         h1 {
             color: #b30000;
-            text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+            font-size: 32px;
+            font-weight: bold;
         }
 
         p {
             line-height: 1.8;
             font-size: 18px;
-            color: #ccc;
+            color: #333;
         }
 
         .apply-btn {
@@ -111,7 +112,6 @@
 
         .team-section {
             text-align: center;
-            background-color: rgba(0, 0, 0, 0.9);
             padding: 40px 0;
             border-top: 2px solid #b30000;
         }
@@ -121,44 +121,43 @@
             width: 250px;
             margin: 20px;
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+            border: 1px solid #b30000;
+            background-color: #fff;
         }
 
         .team-member img {
             width: 100%;
             max-width: 200px;
             border-radius: 50%;
-            box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
         }
 
         .team-member h3 {
-            color: #ff0000;
+            color: #b30000;
             margin-top: 15px;
         }
 
         .team-member p {
             font-size: 14px;
-            color: #ccc;
+            color: #333;
         }
 
         .recruitment-section {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
-            background-color: rgba(17, 17, 17, 0.8);
-            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+            background-color: #fff;
             border-radius: 10px;
             text-align: center;
+            border: 1px solid #b30000;
         }
 
         .recruitment-section img {
             width: 100%;
             max-width: 600px;
             margin: 20px 0;
-            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
             border-radius: 10px;
         }
     </style>
@@ -166,8 +165,8 @@
 
 <body>
     <header>
-        <img src="file:///C:/cc/Genesis BioCorporation.png" alt="Genesis BioCorporation Logo">
         <h2>L'avenir est entre vos mains</h2>
+        <img src="/Users/nonolerobot/Images/Genesis/Genesis BioCorporation.png" alt="Genesis BioCorporation Logo">
     </header>
 
     <nav>
@@ -178,10 +177,9 @@
     <div class="container">
         <h1>Bienvenue chez Genesis BioCorporation</h1>
         <p>
-            2024, le monde est au bord du gouffre. Une pandémie dévastatrice, provoquée par le mystérieux virus Ghost, sème le chaos.
-            Chaque jour, des milliers de vies sont fauchées, mais le pire reste à venir : une mutation inattendue transforme le virus
-            en T-Nemesis, capable de décimer des populations entières en quelques jours. Genesis BioCorporation a été créée pour
-            stopper cette menace avant qu’il ne soit trop tard.
+            Genesis BioCorporation met tout en œuvre pour que la technologie de demain devienne la réalité d'aujourd'hui. 
+            Le progrès scientifique et les innovations technologiques sont les outils de la Genesis BioCorporation pour créer un futur parfait. 
+            Nous vous offrons le futur que vous méritez et nous rendons demain accessible.
         </p>
         <a class="apply-btn" href="https://forms.gle/Tm2ozvTPPqQ3RrhK7" target="_blank">Postuler maintenant</a>
     </div>
@@ -189,11 +187,10 @@
     <!-- Section Recrutement -->
     <div class="recruitment-section" id="recrutement">
         <h2>Recrutement</h2>
-        <p>Nous recherchons des individus exceptionnels pour rejoindre notre équipe de lutte contre le virus T-Nemesis.
-            Découvrez nos offres d'emploi ci-dessous.</p>
+        <p>Nous recherchons des individus exceptionnels pour rejoindre notre équipe de lutte contre le virus T-Nemesis. Découvrez nos offres d'emploi ci-dessous.</p>
 
-        <img src="file:///C:/cc/Document A4 Fiche de poste employé Beige Marron Simple Moderne.png" alt="Fiche de poste - Beige Marron Simple Moderne">
-        <img src="file:///C:/cc/Document A4 Fiche de poste employé Bleu Simple.png" alt="Fiche de poste - Bleu Simple">
+        <img src="/Users/nonolerobot/Images/Genesis/Document A4 Fiche de poste employé Beige Marron Simple Moderne.png" alt="Fiche de poste - Beige Marron Simple Moderne">
+        <img src="/Users/nonolerobot/Images/Genesis/Document A4 Fiche de poste employé Bleu Simple.png" alt="Fiche de poste - Bleu Simple">
     </div>
 
     <!-- Section Qui sommes-nous -->
@@ -201,28 +198,28 @@
         <h2>Qui sommes-nous ?</h2>
 
         <div class="team-member">
-            <img src="file:///C:/cc/nolan.png" alt="Nolan GEORG">
+            <img src="/Users/nonolerobot/Images/Genesis/nolan.png" alt="Nolan GEORG">
             <h3>Nolan GEORG</h3>
             <p>Bio-ingénieur avec une expertise dans la manipulation génétique et la biotechnologie. Nolan a consacré sa carrière à
                 développer des solutions biologiques de pointe pour répondre aux crises sanitaires mondiales.</p>
         </div>
 
         <div class="team-member">
-            <img src="file:///C:/cc/lilou.png" alt="Lilou TREPPNER">
+            <img src="/Users/nonolerobot/Images/Genesis/lilou.png" alt="Lilou TREPPNER">
             <h3>Lilou TREPPNER</h3>
             <p>Immunologue, elle possède une expérience inégalée dans la création de vaccins et le développement d'immunothérapies.
                 Elle est déterminée à comprendre et à neutraliser les souches les plus agressives du T-Nemesis.</p>
         </div>
 
         <div class="team-member">
-            <img src="file:///C:/cc/julian.png" alt="Julian WEBER">
+            <img src="/Users/nonolerobot/Images/Genesis/julian.png" alt="Julian WEBER">
             <h3>Julian WEBER</h3>
             <p>Virologue réputé, Julian a travaillé sur certains des virus les plus dangereux connus de l’humanité. Sa connaissance
                 approfondie des mutations virales fait de lui un atout crucial dans la lutte contre le T-Nemesis.</p>
         </div>
 
         <div class="team-member">
-            <img src="file:///C:/cc/théo.png" alt="Théo MATHIEU">
+            <img src="/Users/nonolerobot/Images/Genesis/théo.png" alt="Théo MATHIEU">
             <h3>Théo MATHIEU</h3>
             <p>Médecin en cybernétique, Théo intègre les technologies avancées dans les traitements médicaux. Son expertise en
                 cybernétique médicale est essentielle pour développer des solutions novatrices contre le T-Nemesis.</p>
