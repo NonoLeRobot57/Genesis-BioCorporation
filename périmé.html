@@ -7,7 +7,7 @@
     <title>Genesis BioCorporation</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Apple Chancery', cursive;
             background-color: #fff;
             color: #b30000;
             margin: 0;
@@ -23,11 +23,12 @@
             position: relative;
         }
 
-        header img {
+        .company-name {
             position: absolute;
             top: 20px;
-            right: 20px;
-            max-width: 150px;
+            left: 20px;
+            font-size: 14px;
+            color: #b30000;
         }
 
         header h2 {
@@ -110,40 +111,6 @@
             padding: 20px 0;
         }
 
-        .team-section {
-            text-align: center;
-            padding: 40px 0;
-            border-top: 2px solid #b30000;
-        }
-
-        .team-member {
-            display: inline-block;
-            width: 250px;
-            margin: 20px;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            border: 1px solid #b30000;
-            background-color: #fff;
-        }
-
-        .team-member img {
-            width: 100%;
-            max-width: 200px;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-        }
-
-        .team-member h3 {
-            color: #b30000;
-            margin-top: 15px;
-        }
-
-        .team-member p {
-            font-size: 14px;
-            color: #333;
-        }
-
         .recruitment-section {
             max-width: 800px;
             margin: 40px auto;
@@ -154,19 +121,29 @@
             border: 1px solid #b30000;
         }
 
-        .recruitment-section img {
-            width: 100%;
-            max-width: 600px;
-            margin: 20px 0;
-            border-radius: 10px;
+        .recruitment-section a {
+            display: inline-block;
+            margin: 15px 0;
+            color: #b30000;
+            text-decoration: none;
+            font-size: 18px;
+            border: 1px solid #b30000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .recruitment-section a:hover {
+            background-color: #b30000;
+            color: white;
         }
     </style>
 </head>
 
 <body>
     <header>
+        <div class="company-name">Genesis BioCorporation</div>
         <h2>L'avenir est entre vos mains</h2>
-        <img src="/Users/nonolerobot/Images/Genesis/Genesis BioCorporation.png" alt="Genesis BioCorporation Logo">
     </header>
 
     <nav>
@@ -189,41 +166,15 @@
         <h2>Recrutement</h2>
         <p>Nous recherchons des individus exceptionnels pour rejoindre notre équipe de lutte contre le virus T-Nemesis. Découvrez nos offres d'emploi ci-dessous.</p>
 
-        <img src="/Users/nonolerobot/Images/Genesis/Document A4 Fiche de poste employé Beige Marron Simple Moderne.png" alt="Fiche de poste - Beige Marron Simple Moderne">
-        <img src="/Users/nonolerobot/Images/Genesis/Document A4 Fiche de poste employé Bleu Simple.png" alt="Fiche de poste - Bleu Simple">
+        <a href="https://www.canva.com/design/DAGQVi6aRN4/AOgv-IdXneiB7dQILWyVew/edit?utm_content=DAGQVi6aRN4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Fiche de Poste secrétaire</a>
+        <a href="https://www.canva.com/design/DAGQV0YvORI/bvEPbv568nz-qkHX29PvUQ/edit?utm_content=DAGQV0YvORI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Fiche de Poste Assistant(e) de direction</a>
     </div>
 
     <!-- Section Qui sommes-nous -->
     <div class="team-section" id="about-us">
         <h2>Qui sommes-nous ?</h2>
 
-        <div class="team-member">
-            <img src="/Users/nonolerobot/Images/Genesis/nolan.png" alt="Nolan GEORG">
-            <h3>Nolan GEORG</h3>
-            <p>Bio-ingénieur avec une expertise dans la manipulation génétique et la biotechnologie. Nolan a consacré sa carrière à
-                développer des solutions biologiques de pointe pour répondre aux crises sanitaires mondiales.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="/Users/nonolerobot/Images/Genesis/lilou.png" alt="Lilou TREPPNER">
-            <h3>Lilou TREPPNER</h3>
-            <p>Immunologue, elle possède une expérience inégalée dans la création de vaccins et le développement d'immunothérapies.
-                Elle est déterminée à comprendre et à neutraliser les souches les plus agressives du T-Nemesis.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="/Users/nonolerobot/Images/Genesis/julian.png" alt="Julian WEBER">
-            <h3>Julian WEBER</h3>
-            <p>Virologue réputé, Julian a travaillé sur certains des virus les plus dangereux connus de l’humanité. Sa connaissance
-                approfondie des mutations virales fait de lui un atout crucial dans la lutte contre le T-Nemesis.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="/Users/nonolerobot/Images/Genesis/théo.png" alt="Théo MATHIEU">
-            <h3>Théo MATHIEU</h3>
-            <p>Médecin en cybernétique, Théo intègre les technologies avancées dans les traitements médicaux. Son expertise en
-                cybernétique médicale est essentielle pour développer des solutions novatrices contre le T-Nemesis.</p>
-        </div>
+        <p>Genesis BioCorporation est composée d'une équipe de scientifiques pionniers dans les domaines de la virologie, de l'immunologie, de la bio-ingénierie, et de la cybernétique médicale. Nous travaillons ensemble pour stopper la propagation du virus T-Nemesis et offrir un avenir meilleur à l'humanité.</p>
     </div>
 
     <footer>
